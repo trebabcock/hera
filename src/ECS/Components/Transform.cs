@@ -1,5 +1,4 @@
-using System;
-using Hera.Math;
+using Hera.MathH;
 
 namespace Hera.ECS.Components
 {
