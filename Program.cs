@@ -1,4 +1,5 @@
 ﻿using System;
+using Hera;
 
 namespace hera
 {
@@ -6,7 +7,11 @@ namespace hera
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Scene scene = new Scene("triangle", 0);
+
+            Game game = new Game(900, 500, "Hera");
+            game.SetDefaultScene(scene);
+            game.Run(60);
         }
     }
 }
