@@ -1,0 +1,3 @@
+namespace Hera.Editor.UI {
+    
+}
